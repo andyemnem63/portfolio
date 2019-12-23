@@ -1,0 +1,28 @@
+#nav-container {
+  align-items: center;
+  background: black;
+  border: 1px solid transparent;
+  color: white;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  transition: all 0.5s;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  padding-left: 5rem;
+}
+
+.nav-menu {
+    margin: 0 5rem 0 auto;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-menu ul li {
+  margin-left: 1.5rem;
+}
