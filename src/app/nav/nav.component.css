@@ -1,6 +1,5 @@
 #nav-container {
   align-items: center;
-  background: black;
   border: 1px solid transparent;
   color: white;
   display: flex;
@@ -10,6 +9,12 @@
   position: fixed;
   width: 100%;
 }
+
+.nav-change {
+  background: black;
+  height: 90px;
+}
+
 .logo {
   padding-left: 5rem;
 }

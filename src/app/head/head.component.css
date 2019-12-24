@@ -1,7 +1,7 @@
 #head-container {
   align-items: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../assets/images/img4.jpg");
-  background-position:center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/images/img4.jpg") no-repeat center top;
+  background-size: cover;
   border: 1px solid black;
   display: flex;
   justify-content: center;
@@ -13,4 +13,5 @@
 .head-content {
   color: #fff;
   font-size: 30px;
+  margin-top: -100px;
 }
